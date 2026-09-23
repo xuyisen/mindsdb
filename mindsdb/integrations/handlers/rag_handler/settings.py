@@ -1,5 +1,6 @@
 import json
 from dataclasses import dataclass
+import sentence_transformers  # noqa: F401
 from functools import lru_cache, partial
 from typing import Any, Dict, List, Union
 

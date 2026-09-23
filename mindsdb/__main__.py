@@ -16,6 +16,7 @@ import traceback
 import threading
 from textwrap import dedent
 from packaging import version
+import type_infer  # noqa: F401
 
 from mindsdb.__about__ import __version__ as mindsdb_version
 from mindsdb.api.http.start import start as start_http
